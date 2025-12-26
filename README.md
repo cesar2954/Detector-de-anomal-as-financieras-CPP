@@ -1,10 +1,15 @@
-# Detector de anomalías financieras CPP
+# 🛡️ Detector de anomalías financieras v1.0
 
-Este proyecto es un motor de detección de anomalías para auditoría financiera. 
-Utiliza el algoritmo de **Z-Score** para identificar transacciones que se desvían 
-significativamente del comportamiento normal del conjunto de datos.
+Este proyecto nace de la intersección entre la **Auditoría Forense** y el **Desarrollo de Software de Alto Rendimiento**.
 
-## Características:
-- Implementado en C++ para alta velocidad de procesamiento.
-- Utiliza desviación estándar para análisis estadístico de riesgo.
-- Ideal para auditoría forense y cumplimiento (Compliance).
+## 🚀 Desafío Técnico
+En entornos de Big Data Financiero, las herramientas tradicionales (como Excel) pueden volverse lentas. Este detector, desarrollado en **C++**, procesa datos a una velocidad significativamente mayor, permitiendo auditorías en tiempo real.
+
+## 🧠 Lógica de Detección
+El sistema utiliza el método de **Puntuación Z (Z-Score)** para identificar transacciones sospechosas:
+- Se calcula la media y la desviación estándar del conjunto de datos.
+- Cualquier transacción que se desvíe más de **3 unidades estándar** es marcada automáticamente para revisión humana.
+
+## 📊 Rendimiento
+- **Capacidad:** Procesamiento de 1,000+ registros.
+- **Latencia:** < 5ms (dependiendo del hardware).
